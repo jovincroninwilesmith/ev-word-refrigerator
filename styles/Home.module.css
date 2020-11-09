@@ -41,10 +41,10 @@
 }
 
 .description {
-  line-height: 0;
   font-size: 1.5rem;
   font-weight: 400;
   color: #f00010;
+  text-decoration: underline;
 }
 
 .code {
@@ -67,7 +67,7 @@
 .card {
   margin-top: 50px;
   padding: 1.5rem;
-  text-align: left;
+  text-align: center;
   color: inherit;
   text-decoration: none;
   border-radius: 10px;
