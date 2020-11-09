@@ -100,13 +100,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>What's up, Elyse! 💁‍♀️</h1>
+        <h1 className={styles.title}>What's up, Elyse!</h1>
 
         <p className={styles.description}>Time to get cracking on some new art. 🔥🔥🔥</p>
 
         <div className={styles.grid}>
           <a onClick={() => clickFunction()} className={styles.card}>
-            <h3>🥰🥰🥰 Today's topic 🥰🥰🥰</h3>
+            <h3>🥰 Today's topic 🥰</h3>
             <h3 className={styles.prompt}>{blurb}</h3>
             <p>If this prompt sucks 🤮🤮🤮, just click this area.</p>
           </a>
